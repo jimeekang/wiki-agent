@@ -3,6 +3,7 @@
 Welcome to your autonomous knowledge base. This index is maintained by the P-Reinforce Architect.
 
 ## 📂 Navigation
+- [[10_Wiki/Topics/AI_Gardening/LLM_Wiki_Architecture|🌱 LLM-Wiki Architecture]]
 - [[10_Wiki/Projects|🛠️ Projects]]: Active goals and summaries.
 - [[10_Wiki/Topics|💡 Topics]]: Conceptual knowledge and philosophy.
 - [[10_Wiki/Decisions|⚖️ Decisions]]: Rationales and records.

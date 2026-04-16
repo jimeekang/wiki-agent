@@ -1,5 +1,7 @@
 {
-  "nodes": [],
+  "nodes": [
+    {"id": "LLM_Wiki_Architecture", "label": "LLM-Wiki Architecture", "folder": "Topics/AI_Gardening"}
+  ],
   "edges": [],
   "metadata": {
     "last_updated": "2026-04-16",
