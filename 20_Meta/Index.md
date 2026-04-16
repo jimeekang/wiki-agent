@@ -9,6 +9,9 @@ Welcome to your autonomous knowledge base. This index is maintained by the P-Rei
 - [[10_Wiki/Decisions|⚖️ Decisions]]: Rationales and records.
 - [[10_Wiki/Skills|🚀 Skills]]: Workflows and prompt patterns.
 
+## 📊 Visualization
+- [Knowledge Graph Dashboard](index.html)
+
 ## 🧠 System Status
 - **Current RL Version:** 1.0.0
 - **Total Documents:** 0
