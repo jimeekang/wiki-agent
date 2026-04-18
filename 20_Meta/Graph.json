@@ -1,10 +1,490 @@
 {
   "nodes": [
-    {"id": "LLM_Wiki_Architecture", "label": "LLM-Wiki Architecture", "folder": "Topics/AI_Gardening"}
+    {
+      "id": "LLM_Wiki_Architecture",
+      "label": "LLM-Wiki Architecture",
+      "folder": "Topics/AI_Gardening"
+    },
+    {
+      "id": "LLM_Wiki_Concepts",
+      "label": "LLM-Wiki Concepts",
+      "folder": "Topics/AI_Gardening"
+    },
+    {
+      "id": "P_Reinforce_Skill",
+      "label": "P-Reinforce Skill",
+      "folder": "Skills"
+    },
+    {
+      "id": "P_Reinforce_Brief",
+      "label": "P-Reinforce Brief",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "Harness_Engineering",
+      "label": "Harness Engineering",
+      "folder": "Topics/AI_Engineering"
+    },
+    {
+      "id": "Harness_Engineering_Raw",
+      "label": "하네스 엔지니어링",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "Gemma_Image_Assessment_Estimate_Architecture",
+      "label": "Gemma Image Assessment Estimate Architecture",
+      "folder": "Projects/Painting_Estimate_AI"
+    },
+    {
+      "id": "LLM_Image_Reader_Raw",
+      "label": "LLM 이미지 판독기",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "P-Reinforce_Skill",
+      "label": "P-Reinforce Skill",
+      "folder": "Skills"
+    },
+    {
+      "id": "Gemma_LLM_기반_이미지_분석_및_견적_앱_적용_구조_Raw",
+      "label": "Gemma LLM 기반 이미지 분석 및 견적 앱 적용 구조",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "P-Reinforce_Brief_Raw",
+      "label": "P-Reinforce Brief",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "하네스_엔지니어링_Harness_Engineering_Raw",
+      "label": "하네스 엔지니어링 (Harness Engineering)",
+      "folder": "00_Raw/2026-04-17"
+    },
+    {
+      "id": "GStack_-_autoplan_Raw",
+      "label": "GStack - autoplan",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_browse_Raw",
+      "label": "GStack - browse",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_careful_Raw",
+      "label": "GStack - careful",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_guard_Raw",
+      "label": "GStack - guard",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_office-hours_Raw",
+      "label": "GStack - office-hours",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_plan-eng-review_Raw",
+      "label": "GStack - plan-eng-review",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_qa_Raw",
+      "label": "GStack - qa",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_review_Raw",
+      "label": "GStack - review",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_ship_Raw",
+      "label": "GStack - ship",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "CSO_v2_Raw",
+      "label": "CSO v2",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_Raw",
+      "label": "GStack",
+      "folder": "00_Raw/2026-04-18"
+    },
+    {
+      "id": "GStack_-_autoplan",
+      "label": "GStack: GStack - autoplan",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_browse",
+      "label": "GStack: GStack - browse",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_careful",
+      "label": "GStack: GStack - careful",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_guard",
+      "label": "GStack: GStack - guard",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_office-hours",
+      "label": "GStack: GStack - office-hours",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_plan-eng-review",
+      "label": "GStack: GStack - plan-eng-review",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_qa",
+      "label": "GStack: GStack - qa",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_review",
+      "label": "GStack: GStack - review",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack_-_ship",
+      "label": "GStack: GStack - ship",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "CSO_v2",
+      "label": "GStack: CSO v2",
+      "folder": "Topics/AI_Development/GStack"
+    },
+    {
+      "id": "GStack",
+      "label": "GStack: GStack",
+      "folder": "Topics/AI_Development/GStack"
+    }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "source": "P_Reinforce_Skill",
+      "target": "LLM_Wiki_Architecture",
+      "type": "related"
+    },
+    {
+      "source": "P_Reinforce_Skill",
+      "target": "LLM_Wiki_Concepts",
+      "type": "related"
+    },
+    {
+      "source": "P_Reinforce_Skill",
+      "target": "P_Reinforce_Brief",
+      "type": "raw_source"
+    },
+    {
+      "source": "Harness_Engineering",
+      "target": "Harness_Engineering_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "Harness_Engineering",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "Harness_Engineering",
+      "target": "LLM_Wiki_Architecture",
+      "type": "related"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "LLM_Image_Reader_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "LLM_Wiki_Concepts",
+      "type": "related"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "Gemma_LLM_기반_이미지_분석_및_견적_앱_적용_구조_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "LLM_Wiki_Architecture",
+      "type": "related"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "LLM_Wiki_Concepts",
+      "type": "related"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "P-Reinforce_Brief_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "하네스_엔지니어링_Harness_Engineering_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_autoplan_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_browse_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_careful_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_guard_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_office-hours_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_plan-eng-review_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_qa_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_review_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_-_ship_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "CSO_v2_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "P-Reinforce_Skill",
+      "target": "GStack_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "Gemma_LLM_기반_이미지_분석_및_견적_앱_적용_구조_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "Gemma_Image_Assessment_Estimate_Architecture",
+      "target": "Local_Agent_Obsidian",
+      "type": "related"
+    },
+    {
+      "source": "Harness_Engineering",
+      "target": "하네스_엔지니어링_Harness_Engineering_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_autoplan",
+      "target": "GStack_-_autoplan_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_autoplan",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_autoplan",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_browse",
+      "target": "GStack_-_browse_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_browse",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_browse",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_careful",
+      "target": "GStack_-_careful_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_careful",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_careful",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_guard",
+      "target": "GStack_-_guard_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_guard",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_guard",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_office-hours",
+      "target": "GStack_-_office-hours_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_office-hours",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_office-hours",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_plan-eng-review",
+      "target": "GStack_-_plan-eng-review_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_plan-eng-review",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_plan-eng-review",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_qa",
+      "target": "GStack_-_qa_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_qa",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_qa",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_review",
+      "target": "GStack_-_review_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_review",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_review",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_ship",
+      "target": "GStack_-_ship_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack_-_ship",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack_-_ship",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "CSO_v2",
+      "target": "CSO_v2_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "CSO_v2",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "CSO_v2",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    },
+    {
+      "source": "GStack",
+      "target": "GStack_Raw",
+      "type": "raw_source"
+    },
+    {
+      "source": "GStack",
+      "target": "Harness_Engineering",
+      "type": "related"
+    },
+    {
+      "source": "GStack",
+      "target": "P_Reinforce_Skill",
+      "type": "related"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-04-16",
-    "version": "1.0"
+    "last_updated": "2026-04-18",
+    "version": "1.1"
   }
 }

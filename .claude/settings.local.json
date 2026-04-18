@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python engine.py)",
+      "Bash(PYTHONUTF8=1 python engine.py)"
+    ]
+  }
+}
